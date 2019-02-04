@@ -29,6 +29,7 @@ public class StudentDTO {
     public StudentDTO()
     {
     	System.out.println(this.getClass().getSimpleName()+" object created");
+        System.out.println("purely for testing purposes");
     }
     
 	public int getId() {
