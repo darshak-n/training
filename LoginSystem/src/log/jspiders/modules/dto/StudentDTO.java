@@ -30,6 +30,7 @@ public class StudentDTO {
     {
     	System.out.println(this.getClass().getSimpleName()+" object created");
         System.out.println("purely for testing purposes");
+        System.out.println("for the second commit on the new branch");
     }
     
 	public int getId() {
