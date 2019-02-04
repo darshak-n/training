@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>LoginSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>Login_Signup.html</welcome-file>
+  </welcome-file-list>
+   <servlet-mapping> 
+  <servlet-name>First Servlet</servlet-name>
+  <url-pattern>/ss</url-pattern>
+  </servlet-mapping> 
+  <servlet>
+  <servlet-name>First Servlet</servlet-name>
+  <servlet-class>log.jspiders.modules.controller.SignUpServlet</servlet-class>
+  </servlet>
+    <servlet-mapping> 
+  <servlet-name>second Servlet</servlet-name>
+  <url-pattern>/ls</url-pattern>
+  </servlet-mapping> 
+  <servlet>
+  <servlet-name>second Servlet</servlet-name>
+  <servlet-class>log.jspiders.modules.controller.LoginServlet</servlet-class>
+  </servlet>
+</web-app>
